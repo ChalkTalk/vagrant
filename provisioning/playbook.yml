@@ -36,11 +36,11 @@
   sudo: yes
   sudo_user: postgres
   tasks:
-    - name: create database chalktalk_dev
-      postgresql_db: name=chalktalk_dev
+    - name: create database vagrant
+      postgresql_db: name=vagrant
 
-    - name: create postgres user vagrant with access to chalktalk_dev
-      postgresql_user: db=chalktalk_dev name=vagrant
+    - name: create postgres user vagrant with access to vagrant
+      postgresql_user: db=vagrant name=vagrant
 
 - hosts: all
   remote_user: vagrant
