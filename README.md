@@ -12,7 +12,7 @@
    out the specified url
    
    To have vagrant automatically deploy a private github repo, use the HTTPS
-   url with oath token in the format https://<token>@github.com/owner/repo.git
+   url with oath token in the format https://_TOKEN_@github.com/owner/repo.git
    
    See
    https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth
