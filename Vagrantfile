@@ -70,8 +70,5 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "ansible" do |ansible|
     ansible.playbook = "provisioning/playbook.yml"
-    ansible.extra_vars = {
-      vagrant_git_repo: ENV['VAGRANT_GIT_REPO'] 
-    }
   end
 end

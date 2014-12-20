@@ -19,7 +19,7 @@
       apt: name={{ item }} 
       with_items:
         - libjpeg-dev
-        - postgresql-server-dev-9.4
+        - postgresql-server-dev-9.1
         - python2.7-dev
         - python-psycopg2
         - python-pip
