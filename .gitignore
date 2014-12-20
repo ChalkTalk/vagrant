@@ -1,1 +1,5 @@
-var/
+# ignore the src directory, which will be created and filled during provisioning
+src/
+
+# ignore vagrant generated files
+.vagrant/
