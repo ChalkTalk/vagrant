@@ -21,6 +21,7 @@
         - libjpeg-dev
         - postgresql-server-dev-9.4
         - python2.7-dev
+        - python-psycopg2
         - python-pip
         - nodejs
         - git
