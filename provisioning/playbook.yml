@@ -41,10 +41,3 @@
 
     - name: create postgres user vagrant with access to vagrant
       postgresql_user: db=vagrant name=vagrant
-
-- hosts: all
-  remote_user: vagrant
-  tasks:
-    - name: clone git repo into shared folder
-      git: repo={{ vagrant_git_repo }} dest=/vagrant/src
-      
