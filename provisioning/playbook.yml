@@ -41,4 +41,4 @@
       postgresql_db: name=vagrant
 
     - name: create postgres user vagrant with access to vagrant
-      postgresql_user: db=vagrant name=vagrant
+      postgresql_user: db=vagrant name=vagrant role_attr_flags=CREATEDB
