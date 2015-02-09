@@ -27,13 +27,6 @@
         - nodejs
         - git
 
-    - name: install modules from node
-      npm: name={{ item }} global=yes
-      with_items:
-        - yuglify
-        - less
-        - bower
-
 - hosts: all
   sudo: yes
   sudo_user: postgres
