@@ -13,7 +13,7 @@
 
 ## Windows
 
-Ansible is not supported on Windows. My current solution is to bring up the virtual machine without provisioning, then just have the virtual machine provision itself.
+Ansible is not supported on Windows. The current solution is to bring up the virtual machine without provisioning, then just have the virtual machine provision itself.
 
 ### Obtaining a sane environment
 
